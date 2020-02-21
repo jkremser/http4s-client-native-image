@@ -30,7 +30,10 @@ libraryDependencies ++= Seq(
   Dependencies.http4sBlazeServer.value,
   Dependencies.http4sBlazeClient.value,
   Dependencies.http4sCirce.value,
+  Dependencies.http4sClient.value,
+  Dependencies.http4sDropwizard.value,
   Dependencies.http4sDsl.value,
+  Dependencies.http4sPromeheus.value,
   Dependencies.logback.value,
   Dependencies.janino.value
 )

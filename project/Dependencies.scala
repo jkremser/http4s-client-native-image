@@ -23,10 +23,13 @@ object Dependencies {
   val miniTest     = Def.setting("io.monix" %% "minitest"      % miniTestVersion % "test")
   val miniTestLaws = Def.setting("io.monix" %% "minitest-laws" % miniTestVersion % "test")
 
-  val http4sBlazeServer = Def.setting("org.http4s" %% "http4s-blaze-server" % http4sVersion)
-  val http4sBlazeClient = Def.setting("org.http4s" %% "http4s-blaze-client" % http4sVersion)
-  val http4sCirce       = Def.setting("org.http4s" %% "http4s-circe"        % http4sVersion)
-  val http4sDsl         = Def.setting("org.http4s" %% "http4s-dsl"          % http4sVersion)
+  val http4sBlazeServer = Def.setting("org.http4s" %% "http4s-blaze-server"       % http4sVersion)
+  val http4sBlazeClient = Def.setting("org.http4s" %% "http4s-blaze-client"       % http4sVersion)
+  val http4sCirce       = Def.setting("org.http4s" %% "http4s-circe"              % http4sVersion)
+  val http4sClient      = Def.setting("org.http4s" %% "http4s-client"             % http4sVersion)
+  val http4sDropwizard  = Def.setting("org.http4s" %% "http4s-dropwizard-metrics" % http4sVersion)
+  val http4sDsl         = Def.setting("org.http4s" %% "http4s-dsl"                % http4sVersion)
+  val http4sPromeheus   = Def.setting("org.http4s" %% "http4s-prometheus-metrics" % http4sVersion)
 
   val logback = Def.setting("ch.qos.logback"      % "logback-classic" % logbackVersion)
   val janino  = Def.setting("org.codehaus.janino" % "janino"          % janinoVersion)
